@@ -30,6 +30,9 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "express-session": "^1.15.1"
+    "express-session": "^1.15.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-sass": "^2.3.2"
   }
 }
