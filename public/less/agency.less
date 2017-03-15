@@ -98,10 +98,13 @@ h1, h2, h3, h4, h5, h6 {
         font-family: @shadow;
         // .script-font;
         &:hover,
-        &:focus,
+        // &:focus{
         &:active,
         &.active {
             color: darken(@theme-primary, 10%);
+        }
+        &:focus{
+            color: white;
         }
     }
     .navbar-collapse {

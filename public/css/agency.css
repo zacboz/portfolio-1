@@ -163,10 +163,12 @@ fieldset[disabled] .btn-xl.active {
   font-family: 'Shadows Into Light', cursive;
 }
 .navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #4b9b63;
+}
+.navbar-custom .navbar-brand:focus {
+  color: white;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
