@@ -337,6 +337,11 @@ section h3.section-subheading {
     margin-bottom: 0px;
   }
 }
+@media (min-width: 768px) {
+  .skills {
+    font-size: 80px;
+  }
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
